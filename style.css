@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1336px;
+    margin: 0 auto;
+}
+
+header {
+    border: solid black 5px;
+    margin: 0px 0px 10px;
+}
+header li {
+    display: inline;
+    text-decoration: none;
+}
+
+.article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
