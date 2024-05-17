@@ -2,18 +2,20 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: aqua;
+
 }
 
 .container {
     width: 1336px;
     margin: 0 auto;
     text-align: center;
+    background-color: rgb(214, 97, 2);
 }
 
 header {
     border: solid black 5px;
     margin: 0px 0px 30px;
+    background-color: aqua;
 }
 header li {
     display: inline;
@@ -42,5 +44,9 @@ footer {
 }
 
 .cabeçalho {
+    background-color: white;
+}
+
+body {
     background-color: aqua;
 }
