@@ -2,21 +2,27 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-
 }
 
 .container {
     width: 1336px;
     margin: 0 auto;
     text-align: center;
-    background-color: rgb(214, 97, 2);
 }
 
 header {
-    border: solid black 5px;
-    margin: 0px 0px 30px;
-    background-color: aqua;
+    border: white solid 7px;
+    margin: 0 auto;
+    padding: 15px;
 }
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+}
+
 header li {
     display: inline;
     text-decoration: none;
@@ -26,27 +32,73 @@ header li {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    text-align: center;
 }
 
 .article article img {
-    height: 200px;
-    margin: 20px;
+    height: 250px;
+    margin: 28px;
 }
 
 .article article {
     margin: 30px 0;
-    width: 50%;
+    width: 45%;
 }
 
 footer {
-    border: solid black;
+    color: white;
 }
 
 .cabeçalho {
-    background-color: white;
+    background-color: #2174d4;
+    color: white;
+}
+
+.cabeçalho a {
+    color: white;
+    text-decoration: none;
+    font-size: 26px;
 }
 
 body {
-    background-color: aqua;
+    background-color: #2174d4 ;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+}
+
+section {
+    color: white;
+    padding: 20px;
+    border: solid white 5px;
+}
+
+h1 {
+    font-size: 42px;
+}
+
+section h2 {
+    font-size: 42px;
+}
+
+section h3 {
+    font-size: 32px;
+}
+
+#esportes_id {
+    background-color: rgba(1, 132, 141, 0.3)
+}
+
+#politica_id {
+    background-color: rgba(0, 150, 209, 0.3);
+}
+
+#economia_id {
+    background-color: rgba(102, 255, 0, 0.3);
+}
+
+#games_id {
+    background-color: rgba(255, 0, 170, 0.3);
 }
