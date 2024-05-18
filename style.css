@@ -35,7 +35,7 @@ header li {
 }
 
 .article article img {
-    height: 250px;
+    height: 300px;
     margin: 28px;
 }
 
@@ -57,6 +57,7 @@ footer {
     color: white;
     text-decoration: none;
     font-size: 26px;
+    margin: 8px;
 }
 
 body {
@@ -67,6 +68,7 @@ p {
     color: white;
     font-size: 20px;
     text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 section {
@@ -81,14 +83,16 @@ h1 {
 
 section h2 {
     font-size: 42px;
+    margin: 15px;
+    font-weight: bold;
 }
 
 section h3 {
-    font-size: 32px;
+    font-size: 35px;
 }
 
 #esportes_id {
-    background-color: rgba(1, 132, 141, 0.3)
+    background-color: rgba(0, 88, 15, 0.5)
 }
 
 #politica_id {
@@ -96,7 +100,7 @@ section h3 {
 }
 
 #economia_id {
-    background-color: rgba(102, 255, 0, 0.3);
+    background-color: rgba(48, 121, 0, 0.5);
 }
 
 #games_id {
